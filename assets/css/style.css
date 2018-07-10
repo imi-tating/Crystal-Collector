@@ -1,0 +1,67 @@
+body {
+  background-image: url(../images/hexagonalRepeatPattern.png);
+  background-repeat: repeat;
+  background-size: 180px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 60px;
+  font-size: 40px;
+  background-color: rgb(21,117,107);
+  color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+#ellieFace {
+  height: 140px;
+  position: absolute;
+  margin: 85px 45%;
+}
+
+hr {
+  margin: 40px 0;
+  border: .5px solid lightgray;
+}
+
+p {
+  line-height: 2em;
+}
+
+span {
+  font-weight: bold;
+}
+
+#game {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  width: 90%;
+  border: 1px solid lightgray;
+}
+
+.litter-button {
+  background-color: white;
+  padding: 0;
+  border: none;
+}
+
+.litter-bag {
+  width: 300px;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 20px;
+    padding: 40px;
+  }
+
+  #ellieFace {
+    height: 120px;
+    position: absolute;
+    margin: 40px 40%;
+  }
+}
