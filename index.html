@@ -19,6 +19,14 @@
       <img id="ellieFace" src="assets/images/ellieFace.png" alt="">
       <h1>Ellie's Crystals Collector Game</h1>
     </header>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="modal-announcement">
+          <p>Ellie has enlisted you to help her with her litter needs. Gather the exact requested amount of crystal litter bags and win over Ellie's heart. Each crystal litter bag represents a different amount of bags, so be careful not to pickup too many bags or you might offend Ellie.</p>
+        </div>
+      </div>
+    </div>
     <div id="game">
       <div id="all-the-crystals"></div>
       <hr>
@@ -26,14 +34,12 @@
         <p>You must collect <span id="number-of-bags">0</span> bags of crystals to meet Ellie's litter box needs.</p>
       </div>
       <div class="players-current-litter-bag-score">
-        <p>Currently, you have collected <span>0</span> bags of crystals.</p>
+        <p>Currently, you have collected <span id="running-total">0</span> bags of crystals.</p>
       </div>
       <hr>
       <div class="total-wins-and-losses">
         <p>You have won <span id="wins">0</span> times and lost <span id="losses">0</span> times so far.</p>
       </div>
     </div>
-
-
   </body>
 </html>
